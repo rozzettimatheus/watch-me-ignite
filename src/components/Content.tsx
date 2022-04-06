@@ -1,5 +1,5 @@
 import { GenreResponseProps, MovieProps } from "../App";
-import { MovieCard } from "./MovieCard";
+import { MemoizedMovieCard as MovieCard } from "./MovieCard";
 
 interface ContentProps {
   movies: MovieProps[];
